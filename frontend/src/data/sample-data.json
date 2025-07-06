@@ -1,0 +1,26 @@
+{
+  "cards": [
+    {
+      "value": 200,
+      "description": "Lorem ipsum dolor sit amet.",
+      "size": "lg",
+      "span": "half",
+      "showDecoration": true,
+      "icon": "head-circuit"
+    },
+    {
+      "value": 120,
+      "description": "Lorem ipsum dolor sit amet",
+      "size": "md",
+      "span": "quarter",
+      "icon": "users-three"
+    },
+    {
+      "value": 10,
+      "description": "Lorem ipsum dolor sit amet",
+      "size": "md",
+      "span": "quarter",
+      "icon": "star"
+    }
+  ]
+} 

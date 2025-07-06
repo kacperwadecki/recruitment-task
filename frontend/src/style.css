@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000000;
+  --color-content: #1A1A1A;
+  --color-content-secondary: #707070;
+  --color-container: #F7F7F7;
+  --color-background: #FFFFFF;
+  
+  --text-2xl: 1.125rem; 
+  --text-xl: 1.25rem;
+  --text-5xl: 4.25rem;
+  --text-6xl: 7.5rem;
+  --text-7xl: 8.75rem;
+  --text-8xl: 10rem;
+  --text-9xl: 12.5rem;
+  
+  --font-family-sans: 'Outfit', system-ui, sans-serif;
+  
+  --text-h2: 3rem;
+  --text-h2--font-weight: 600;
+
+  --text-header--line-height: 120%;
+  --text-header--letter-spacing: -2%;
+}
+
+* {
+  transition: all 0.2s ease-in-out;
+} 
+
+body { font-family: var(--font-family-sans);background-color: var(--color-background); color: var(--color-primary); }
+
+h1, h2, h3, h4, h5, h6 { line-height: var(--text-h2--line-height); letter-spacing: var(--text-header--letter-spacing); color: var(--color-primary);}
+h2 { font-size: var(--text-h2); font-weight: var(--text-h2--font-weight);}
+
+.content-text { color: var(--color-content); }
+
+.container-bg { background-color: var(--color-container); }
+.container {
+  @media (width >= 80rem) {
+      max-width: 85rem;
+  }
+}
